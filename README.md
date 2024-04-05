@@ -8,13 +8,13 @@ I have always used Pandas as my main tool to work with data but, these little ex
 The task was simple, just read a 9GB CSV file with the different tools and compare the times of loading the data. My poor 12GB of RAM doesnt allow me to read something bigger but, I think its a good beggining to test Polars.
 
 ## Pandas
-<img src="https://github.com/luisferlc/Performance-Competition/blob/master/images/pandas.png">
+<img src="https://github.com/luisferlc/Performance-Competition/blob/master/pandas.png">
 
 ## Polars
-<img src="https://github.com/luisferlc/Performance-Competition/blob/master/images/polars.png">
+<img src="https://github.com/luisferlc/Performance-Competition/blob/master/polars.png">
 
 ## Spark
-<img src="https://github.com/luisferlc/Performance-Competition/blob/master/images/spark.png">
+<img src="https://github.com/luisferlc/Performance-Competition/blob/master/spark.png">
 
 # Conclusions
 - Spark was the fastest with less than 5 seconds followed by
@@ -22,16 +22,16 @@ The task was simple, just read a 9GB CSV file with the different tools and compa
 - Pandas with 109 seconds.
 
 Pros and Cons of each tool:
-Spark:
+#### Spark:
 - Built in parallelization between CPU Cores.
 - Harder to setup, not as many functions like pandas or polars but,
 - its seems that the way of paralelization of spark still better than polars.
-Polars:
+#### Polars:
 - Built in parallelization between CPU Cores.
 - I have seen more functions options than spark, not as many as pandas, but,
 - still faster than pandas.
 - Also,  in the documentation of polars it is said that it can process data larger than your memory, this is very PROMISING.
-Pandas:
+#### Pandas:
 - A lot of functions to use but,
 - it doesnt have the built-in parallelization that Spark and Polars have, making it obsolte when daling with big data.
 
