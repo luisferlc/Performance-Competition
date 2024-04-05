@@ -1,11 +1,11 @@
 # Performance-Competition
 Comparing the speed to read a simple 9GB CSV when using the new promising data managemnt library named Polars, vs Pandas vs Spark
 
-I wanted to try this new Polars library which is created with the purpose of faster performance when working with dataframes. They say is going o replace Pandas and thats very interesting for enterprises who want to deal better with costs of processing data.
+I wanted to try this new Polars library which is created with the purpose of faster performance when working with dataframes. They say is going to replace Pandas and thats very interesting for enterprises who wants to deal better with costs of processing data and speed.
 
-I have always used Pandas as my main tool to work with data but, these little experiment is giving me motivation to learn more about Polars and also, contunuing learning about Spark, because as you may see in the results, Spark was the fastest by far.
+I have always used Pandas as my main tool to work with data but, these little experiment is giving me motivation to learn more about Polars and also, keep learning about Spark, because as you may see in the results, Spark was the fastest by far.
 
-The task was simple, just read a 9GB CSV file with the different tools and compare the times of loading the data. My poor 12GB of RAM doesnt allow me to read something bigger but, I think its a good beggining to test Polars.
+The task was simple, just read a 9GB CSV file with the different tools and compare the times for loading the data. My poor 12GB of RAM doesnt allow me to read something bigger but, I think its a good start to test Polars.
 
 ## Pandas
 <img src="https://github.com/luisferlc/Performance-Competition/blob/main/pandas.png">
