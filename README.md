@@ -8,13 +8,13 @@ I have always used Pandas as my main tool to work with data but, these little ex
 The task was simple, just read a 9GB CSV file with the different tools and compare the times of loading the data. My poor 12GB of RAM doesnt allow me to read something bigger but, I think its a good beggining to test Polars.
 
 ## Pandas
-<img src="https://github.com/luisferlc/Performance-Competition/blob/master/pandas.png">
+<img src="https://github.com/luisferlc/Performance-Competition/blob/main/pandas.png">
 
 ## Polars
-<img src="https://github.com/luisferlc/Performance-Competition/blob/master/polars.png">
+<img src="https://github.com/luisferlc/Performance-Competition/blob/main/polars.png">
 
 ## Spark
-<img src="https://github.com/luisferlc/Performance-Competition/blob/master/spark.png">
+<img src="https://github.com/luisferlc/Performance-Competition/blob/main/spark.png">
 
 # Conclusions
 - Spark was the fastest with less than 5 seconds followed by
