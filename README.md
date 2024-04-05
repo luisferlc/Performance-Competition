@@ -33,7 +33,7 @@ Pros and Cons of each tool:
 - Also,  in the documentation of polars it is said that it can process data larger than your memory, this is very PROMISING.
 #### Pandas:
 - A lot of functions to use but,
-- it doesnt have the built-in parallelization that Spark and Polars have, making it obsolte when daling with big data.
+- it doesnt have the built-in parallelization that Spark and Polars have, making it much harder when daling with big data.
 
 I'm very excited to learn more about Polars and the benefits that this can bring to reduce costs.
 
