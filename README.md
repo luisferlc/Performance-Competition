@@ -1,5 +1,5 @@
 # Performance-Competition
-Comparing the speed to read a simple 9GB CSV when using the new promising Polars vs Pandas vs Spark
+Comparing the speed to read a simple 9GB CSV when using the new promising data managemnt library named Polars, vs Pandas vs Spark
 
 I wanted to try this new Polars library which is created with the purpose of faster performance when working with dataframes. They say is going o replace Pandas and thats very interesting for enterprises who want to deal better with costs of processing data.
 
